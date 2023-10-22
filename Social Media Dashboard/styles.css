@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.platforms {
+    display: flex;
+    justify-content: space-around;
+}
+
+.platform {
+    flex-basis: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.platform h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.metric {
+    flex-basis: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.count {
+    font-size: 24px;
+    font-weight: bold;
+}
